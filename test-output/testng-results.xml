@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="3" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[[RETRYING] class com.san.test.SanTestPlan.readCSV3 FAILED, Retrying 1 time]]>
+    </line>
+    <line>
+      <![CDATA[takeScreenShotOnFailure :: Capturing Screenshots !!!]]>
+    </line>
+    <line>
+      <![CDATA[takeScreenShotOnFailure :: Capturing Screenshots !!!]]>
+    </line>
+  </reporter-output>
+  <suite name="SAN" duration-ms="128" started-at="2017-01-09T11:14:03Z" finished-at="2017-01-09T11:14:04Z">
+    <groups>
+      <group name="readCSV2">
+        <method signature="SanTestPlan.readCSV2(com.auto.base.util.internal.entity.SpireTestObject)[pri:0, instance:com.san.test.SanTestPlan@6321e813]" name="readCSV2" class="com.san.test.SanTestPlan"/>
+      </group> <!-- readCSV2 -->
+      <group name="readCSV3">
+        <method signature="SanTestPlan.readCSV3(com.auto.base.util.internal.entity.SpireTestObject)[pri:0, instance:com.san.test.SanTestPlan@1efed156]" name="readCSV3" class="com.san.test.SanTestPlan"/>
+      </group> <!-- readCSV3 -->
+      <group name="Sanity">
+        <method signature="SanTestPlan.readCSV1(com.auto.base.util.internal.entity.SpireTestObject)[pri:0, instance:com.san.test.SanTestPlan@4b4523f8]" name="readCSV1" class="com.san.test.SanTestPlan"/>
+        <method signature="SanTestPlan.readCSV2(com.auto.base.util.internal.entity.SpireTestObject)[pri:0, instance:com.san.test.SanTestPlan@6321e813]" name="readCSV2" class="com.san.test.SanTestPlan"/>
+        <method signature="SanTestPlan.readCSV3(com.auto.base.util.internal.entity.SpireTestObject)[pri:0, instance:com.san.test.SanTestPlan@1efed156]" name="readCSV3" class="com.san.test.SanTestPlan"/>
+      </group> <!-- Sanity -->
+      <group name="readCSV1">
+        <method signature="SanTestPlan.readCSV1(com.auto.base.util.internal.entity.SpireTestObject)[pri:0, instance:com.san.test.SanTestPlan@4b4523f8]" name="readCSV1" class="com.san.test.SanTestPlan"/>
+      </group> <!-- readCSV1 -->
+      <group name="SANITY">
+        <method signature="SanTestPlan.readCSV1(com.auto.base.util.internal.entity.SpireTestObject)[pri:0, instance:com.san.test.SanTestPlan@4b4523f8]" name="readCSV1" class="com.san.test.SanTestPlan"/>
+        <method signature="SanTestPlan.readCSV2(com.auto.base.util.internal.entity.SpireTestObject)[pri:0, instance:com.san.test.SanTestPlan@6321e813]" name="readCSV2" class="com.san.test.SanTestPlan"/>
+        <method signature="SanTestPlan.readCSV3(com.auto.base.util.internal.entity.SpireTestObject)[pri:0, instance:com.san.test.SanTestPlan@1efed156]" name="readCSV3" class="com.san.test.SanTestPlan"/>
+      </group> <!-- SANITY -->
+    </groups>
+    <test name="TestSuite1 - Sanity" duration-ms="46" started-at="2017-01-09T11:14:03Z" finished-at="2017-01-09T11:14:03Z">
+      <class name="com.san.test.SanTestPlan">
+        <test-method status="PASS" signature="beforeTest(org.testng.ITestContext, org.testng.xml.XmlTest)[pri:0, instance:com.san.test.SanTestPlan@4b4523f8]" name="beforeTest" is-config="true" duration-ms="1" started-at="2017-01-09T16:44:03Z" finished-at="2017-01-09T16:44:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@30a3107a]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Test: "TestSuite1 - Sanity" verbose:1[parameters:][metagroups:] [included: readCSV1 ][excluded: ]  classes:[XmlClass class=com.san.test.SanTestPlan]  packages:org.testng.xml.XmlPackage@57c23626 ] ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeTestMethod([Ljava.lang.Object;, java.lang.reflect.Method, org.testng.ITestContext, org.testng.xml.XmlTest)[pri:0, instance:com.san.test.SanTestPlan@4b4523f8]" name="beforeTestMethod" is-config="true" duration-ms="11" started-at="2017-01-09T16:44:03Z" finished-at="2017-01-09T16:44:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@33c7e1bb]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.san.test.SanTestPlan.readCSV1(com.auto.base.util.internal.entity.SpireTestObject)]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@30a3107a]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[[Test: "TestSuite1 - Sanity" verbose:1[parameters:][metagroups:] [included: readCSV1 ][excluded: ]  classes:[XmlClass class=com.san.test.SanTestPlan]  packages:org.testng.xml.XmlPackage@57c23626 ] ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestMethod -->
+        <test-method status="PASS" signature="readCSV1(com.auto.base.util.internal.entity.SpireTestObject)[pri:0, instance:com.san.test.SanTestPlan@4b4523f8]" name="readCSV1" duration-ms="7" started-at="2017-01-09T16:44:03Z" data-provider="SAN" finished-at="2017-01-09T16:44:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestCaseId=1|TestTitle=readCSV1]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readCSV1 -->
+        <test-method status="PASS" signature="_takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.san.test.SanTestPlan@4b4523f8]" name="_takeScreenShotOnFailure" is-config="true" duration-ms="2" started-at="2017-01-09T16:44:03Z" finished-at="2017-01-09T16:44:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=readCSV1 status=SUCCESS method=SanTestPlan.readCSV1(com.auto.base.util.internal.entity.SpireTestObject)[pri:0, instance:com.san.test.SanTestPlan@4b4523f8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- _takeScreenShotOnFailure -->
+        <test-method status="PASS" signature="afterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.san.test.SanTestPlan@4b4523f8]" name="afterTestMethod" is-config="true" duration-ms="1" started-at="2017-01-09T16:44:03Z" finished-at="2017-01-09T16:44:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.san.test.SanTestPlan.readCSV1(com.auto.base.util.internal.entity.SpireTestObject)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTestMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.san.test.SanTestPlan@4b4523f8]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-01-09T16:44:03Z" finished-at="2017-01-09T16:44:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=readCSV1 status=SUCCESS method=SanTestPlan.readCSV1(com.auto.base.util.internal.entity.SpireTestObject)[pri:0, instance:com.san.test.SanTestPlan@4b4523f8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.san.test.SanTestPlan -->
+    </test> <!-- TestSuite1 - Sanity -->
+    <test name="TestSuite2 - Sanity" duration-ms="14" started-at="2017-01-09T11:14:03Z" finished-at="2017-01-09T11:14:03Z">
+      <class name="com.san.test.SanTestPlan">
+        <test-method status="PASS" signature="beforeTest(org.testng.ITestContext, org.testng.xml.XmlTest)[pri:0, instance:com.san.test.SanTestPlan@6321e813]" name="beforeTest" is-config="true" duration-ms="3" started-at="2017-01-09T16:44:03Z" finished-at="2017-01-09T16:44:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@34c4973]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Test: "TestSuite2 - Sanity" verbose:1[parameters:][metagroups:] [included: readCSV2 ][excluded: ]  classes:[XmlClass class=com.san.test.SanTestPlan]  packages:org.testng.xml.XmlPackage@57c23626 ] ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeTestMethod([Ljava.lang.Object;, java.lang.reflect.Method, org.testng.ITestContext, org.testng.xml.XmlTest)[pri:0, instance:com.san.test.SanTestPlan@6321e813]" name="beforeTestMethod" is-config="true" duration-ms="1" started-at="2017-01-09T16:44:03Z" finished-at="2017-01-09T16:44:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@52feb982]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.san.test.SanTestPlan.readCSV2(com.auto.base.util.internal.entity.SpireTestObject)]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@34c4973]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[[Test: "TestSuite2 - Sanity" verbose:1[parameters:][metagroups:] [included: readCSV2 ][excluded: ]  classes:[XmlClass class=com.san.test.SanTestPlan]  packages:org.testng.xml.XmlPackage@57c23626 ] ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestMethod -->
+        <test-method status="PASS" signature="readCSV2(com.auto.base.util.internal.entity.SpireTestObject)[pri:0, instance:com.san.test.SanTestPlan@6321e813]" name="readCSV2" duration-ms="2" started-at="2017-01-09T16:44:03Z" data-provider="SAN" finished-at="2017-01-09T16:44:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestCaseId=2|TestTitle=readCSV2]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readCSV2 -->
+        <test-method status="PASS" signature="_takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.san.test.SanTestPlan@6321e813]" name="_takeScreenShotOnFailure" is-config="true" duration-ms="0" started-at="2017-01-09T16:44:03Z" finished-at="2017-01-09T16:44:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=readCSV2 status=SUCCESS method=SanTestPlan.readCSV2(com.auto.base.util.internal.entity.SpireTestObject)[pri:0, instance:com.san.test.SanTestPlan@6321e813] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- _takeScreenShotOnFailure -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.san.test.SanTestPlan@6321e813]" name="afterMethod" is-config="true" duration-ms="1" started-at="2017-01-09T16:44:03Z" finished-at="2017-01-09T16:44:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=readCSV2 status=SUCCESS method=SanTestPlan.readCSV2(com.auto.base.util.internal.entity.SpireTestObject)[pri:0, instance:com.san.test.SanTestPlan@6321e813] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.san.test.SanTestPlan@6321e813]" name="afterTestMethod" is-config="true" duration-ms="0" started-at="2017-01-09T16:44:03Z" finished-at="2017-01-09T16:44:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.san.test.SanTestPlan.readCSV2(com.auto.base.util.internal.entity.SpireTestObject)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTestMethod -->
+      </class> <!-- com.san.test.SanTestPlan -->
+    </test> <!-- TestSuite2 - Sanity -->
+    <test name="TestSuite3 - Sanity" duration-ms="21" started-at="2017-01-09T11:14:04Z" finished-at="2017-01-09T11:14:04Z">
+      <class name="com.san.test.SanTestPlan">
+        <test-method status="PASS" signature="beforeTestSuite(org.testng.ITestContext)[pri:0, instance:com.san.test.SanTestPlan@1efed156]" name="beforeTestSuite" is-config="true" duration-ms="13" started-at="2017-01-09T16:44:03Z" finished-at="2017-01-09T16:44:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7a765367]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestSuite -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.san.test.SanTestPlan@1efed156]" name="setUp" is-config="true" duration-ms="0" started-at="2017-01-09T16:44:03Z" finished-at="2017-01-09T16:44:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="beforeTest(org.testng.ITestContext, org.testng.xml.XmlTest)[pri:0, instance:com.san.test.SanTestPlan@1efed156]" name="beforeTest" is-config="true" duration-ms="1" started-at="2017-01-09T16:44:04Z" finished-at="2017-01-09T16:44:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7a765367]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Test: "TestSuite3 - Sanity" verbose:1[parameters:][metagroups:] [included: readCSV3 ][excluded: ]  classes:[XmlClass class=com.san.test.SanTestPlan]  packages:org.testng.xml.XmlPackage@57c23626 ] ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeTestMethod([Ljava.lang.Object;, java.lang.reflect.Method, org.testng.ITestContext, org.testng.xml.XmlTest)[pri:0, instance:com.san.test.SanTestPlan@1efed156]" name="beforeTestMethod" is-config="true" duration-ms="1" started-at="2017-01-09T16:44:04Z" finished-at="2017-01-09T16:44:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@76b0bfab]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.san.test.SanTestPlan.readCSV3(com.auto.base.util.internal.entity.SpireTestObject)]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@7a765367]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[[Test: "TestSuite3 - Sanity" verbose:1[parameters:][metagroups:] [included: readCSV3 ][excluded: ]  classes:[XmlClass class=com.san.test.SanTestPlan]  packages:org.testng.xml.XmlPackage@57c23626 ] ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.san.test.SanTestPlan@1efed156]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-01-09T16:44:04Z" finished-at="2017-01-09T16:44:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=readCSV3 status=FAILURE method=SanTestPlan.readCSV3(com.auto.base.util.internal.entity.SpireTestObject)[pri:0, instance:com.san.test.SanTestPlan@1efed156] output=[RETRYING] class com.san.test.SanTestPlan.readCSV3 FAILED, Retrying 1 time]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="_takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.san.test.SanTestPlan@1efed156]" name="_takeScreenShotOnFailure" is-config="true" duration-ms="0" started-at="2017-01-09T16:44:04Z" finished-at="2017-01-09T16:44:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=readCSV3 status=FAILURE method=SanTestPlan.readCSV3(com.auto.base.util.internal.entity.SpireTestObject)[pri:0, instance:com.san.test.SanTestPlan@1efed156] output=[RETRYING] class com.san.test.SanTestPlan.readCSV3 FAILED, Retrying 1 time]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[takeScreenShotOnFailure :: Capturing Screenshots !!!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- _takeScreenShotOnFailure -->
+        <test-method status="PASS" signature="afterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.san.test.SanTestPlan@1efed156]" name="afterTestMethod" is-config="true" duration-ms="1" started-at="2017-01-09T16:44:04Z" finished-at="2017-01-09T16:44:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.san.test.SanTestPlan.readCSV3(com.auto.base.util.internal.entity.SpireTestObject)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTestMethod -->
+        <test-method status="PASS" signature="beforeTestMethod([Ljava.lang.Object;, java.lang.reflect.Method, org.testng.ITestContext, org.testng.xml.XmlTest)[pri:0, instance:com.san.test.SanTestPlan@1efed156]" name="beforeTestMethod" is-config="true" duration-ms="1" started-at="2017-01-09T16:44:04Z" finished-at="2017-01-09T16:44:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@17d677df]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.san.test.SanTestPlan.readCSV3(com.auto.base.util.internal.entity.SpireTestObject)]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@7a765367]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[[Test: "TestSuite3 - Sanity" verbose:1[parameters:][metagroups:] [included: readCSV3 ][excluded: ]  classes:[XmlClass class=com.san.test.SanTestPlan]  packages:org.testng.xml.XmlPackage@57c23626 ] ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestMethod -->
+        <test-method status="FAIL" signature="readCSV3(com.auto.base.util.internal.entity.SpireTestObject)[pri:0, instance:com.san.test.SanTestPlan@1efed156]" name="readCSV3" duration-ms="1" started-at="2017-01-09T16:44:04Z" data-provider="SAN" finished-at="2017-01-09T16:44:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestCaseId=3|TestTitle=readCSV3]]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Failed !!]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Failed !!
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.san.test.SanTestPlan.readCSV3(SanTestPlan.java:81)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:696)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:1027)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1207)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:38)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:382)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readCSV3 -->
+        <test-method status="PASS" signature="_takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.san.test.SanTestPlan@1efed156]" name="_takeScreenShotOnFailure" is-config="true" duration-ms="0" started-at="2017-01-09T16:44:04Z" finished-at="2017-01-09T16:44:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=readCSV3 status=FAILURE method=SanTestPlan.readCSV3(com.auto.base.util.internal.entity.SpireTestObject)[pri:0, instance:com.san.test.SanTestPlan@1efed156] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[takeScreenShotOnFailure :: Capturing Screenshots !!!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- _takeScreenShotOnFailure -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.san.test.SanTestPlan@1efed156]" name="afterMethod" is-config="true" duration-ms="1" started-at="2017-01-09T16:44:04Z" finished-at="2017-01-09T16:44:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=readCSV3 status=FAILURE method=SanTestPlan.readCSV3(com.auto.base.util.internal.entity.SpireTestObject)[pri:0, instance:com.san.test.SanTestPlan@1efed156] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.san.test.SanTestPlan@1efed156]" name="afterTestMethod" is-config="true" duration-ms="0" started-at="2017-01-09T16:44:04Z" finished-at="2017-01-09T16:44:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.san.test.SanTestPlan.readCSV3(com.auto.base.util.internal.entity.SpireTestObject)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTestMethod -->
+        <test-method status="PASS" signature="afterTestSuite()[pri:0, instance:com.san.test.SanTestPlan@1efed156]" name="afterTestSuite" is-config="true" duration-ms="0" started-at="2017-01-09T16:44:04Z" finished-at="2017-01-09T16:44:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTestSuite -->
+      </class> <!-- com.san.test.SanTestPlan -->
+    </test> <!-- TestSuite3 - Sanity -->
+  </suite> <!-- SAN -->
+</testng-results>

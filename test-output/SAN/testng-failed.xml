@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [SAN]" parallel="tests">
+  <parameter name="healthCheck" value="false"/>
+  <listeners>
+    <listener class-name="com.auto.base.reporter.AutomationReport"/>
+    <listener class-name="com.auto.base.controller.TestRetryListener"/>
+    <listener class-name="com.auto.base.reporter.AutomationEmailReport"/>
+  </listeners>
+  <test name="TestSuite3 - Sanity(failed)" parallel="tests">
+    <groups>
+      <run>
+        <include name="readCSV3"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.san.test.SanTestPlan">
+        <methods>
+          <include name="_takeScreenShotOnFailure"/>
+          <include name="_takeScreenShotOnFailure"/>
+          <include name="_takeScreenShotOnFailure"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTestMethod"/>
+          <include name="beforeTestMethod"/>
+          <include name="beforeTestSuite"/>
+          <include name="beforeTestMethod"/>
+          <include name="afterTestSuite"/>
+          <include name="afterMethod"/>
+          <include name="afterMethod"/>
+          <include name="afterMethod"/>
+          <include name="readCSV3" invocation-numbers="0 0"/>
+          <include name="setUp"/>
+          <include name="afterTestMethod"/>
+          <include name="afterTestMethod"/>
+          <include name="afterTestMethod"/>
+        </methods>
+      </class> <!-- com.san.test.SanTestPlan -->
+    </classes>
+  </test> <!-- TestSuite3 - Sanity(failed) -->
+</suite> <!-- Failed suite [SAN] -->

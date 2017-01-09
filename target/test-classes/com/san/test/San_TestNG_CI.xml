@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<suite name="SAN" parallel="tests" thread-count="1">
+
+	<listeners>
+		<listener class-name="com.auto.base.reporter.AutomationReport" />
+		<listener class-name="com.auto.base.controller.TestRetryListener" />
+		<listener class-name="com.auto.base.reporter.AutomationEmailReport" />
+	</listeners>
+
+	<parameter name="healthCheck" value="false" />
+    
+	<test name="TestSuite1 - Sanity">   
+		<groups>
+
+			<run>
+				<include name="readCSV1" />
+
+			</run>
+
+		</groups>      
+
+		<packages>
+			<package name="com.san.test" />     
+		</packages>
+	</test>
+	
+	<test name="TestSuite2 - Sanity">        
+		<groups>
+
+			<run>    
+				<include name="readCSV2" />
+
+			</run>
+
+		</groups>      
+
+		<packages>
+			<package name="com.san.test" />  
+		</packages>
+	</test>
+	
+	<test name="TestSuite3 - Sanity">   
+		<groups>
+
+			<run>
+				<include name="readCSV3" />
+
+			</run>
+
+		</groups>      
+
+		<packages>
+			<package name="com.san.test" />  
+		</packages>
+	</test> 
+	    
+</suite>               
+        
+   
